@@ -1,0 +1,28 @@
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th {
+border: 1px solid black;
+}
+
+td {
+border: 1px solid black;
+text-align: center;
+padding-inline: 25px;
+padding-top: 8px;
+padding-bottom: 8px;
+}
+
+caption {
+border: 1px solid black;
+border-bottom: 0px;
+}
+
+td.recreo {
+    font-style: italic;
+}
+
+td.datos {
+}
