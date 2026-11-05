@@ -1,0 +1,76 @@
+h1 {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    color: maroon;
+    letter-spacing: 2px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2.tituloEjemplo {
+    color: mediumaquamarine;
+}
+
+h2::after {
+    content: "!!!";
+}
+
+p::first-line {
+    font-style: italic;
+    color: #444432;
+}
+
+
+ul.ejemplo1 li:nth-child(odd) {
+    background-color: papayawhip;
+}
+
+
+ul.ejemplo1 li:nth-child(even) {
+    background-color: lightcoral;
+}
+
+
+ul.ejemplo1 li {
+    list-style: none;
+}
+
+ul.ejemplo1 li a {
+    display: block;
+    padding: 5px 10px;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+ul.ejemplo2 li:first-of-type {
+    color: blue;
+}
+
+ul.ejemplo2 li:nth-child(even) {
+    font-size: 45px;
+    color: maroon;
+
+}
+
+ul.ejemplo2 li:nth-child(odd) {
+    background-color: papayawhip;
+}
+
+ul.ejemplo2 li {
+    list-style: none;
+    margin-left: 0;
+}
+
+ul.ejemplo2 li:last-child {
+    color: #1d661d;
+    font-size: 52px;
+
+}
+
+ul.ejemplo2 li:nth-child(3) {
+    font-size: 25px;
+    color: orange;
+}
